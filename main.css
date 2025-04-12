@@ -1,0 +1,396 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Medium.ttf)
+    format(truetype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+li{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    background-color: #1B1B1B;
+    background-image: url("./images/hero-bg-image.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/* header start */
+.header-heading{
+    margin: 64px 0 23px 0;
+    padding: 0 72px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left__wrapper{
+    display: flex;
+    gap: 280px;
+    align-items: center;
+}
+nav{
+    width: 450px;
+    height: 60px;
+    border: 3px solid #262626;
+    border-radius: 30px;
+    display: flex;
+    background-color: #1e1e1e;
+}
+.nav__lists{
+    display: flex;
+    gap: 48px;
+    padding: 16px 28px;
+    align-items: center;
+}
+.nav__lists li a{
+    color: #7A7A7A;
+    font-size: 15px;
+}
+.header-right{
+    width: 204px;
+    height: 52px;
+    border: 3px solid #262626;
+    border-radius: 30px;
+    padding: 12px 28px;
+    background-color: #1e1e1e;
+}
+.header-right a{
+    color: #CCCCCC;
+    font-size: 15px;
+}
+/* header end */
+
+
+/* main start */
+
+/* hero start */
+.hero{
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 232px;
+}
+.hero h1{
+    background: linear-gradient(90deg, #727267, #FFFFF7);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 132px;
+    letter-spacing: -2.4px;
+    line-height: 132px;
+}
+.hero p{
+    color: #7D7F78;
+    font-size: 30px;
+}
+.hero__btn{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 6px 5px 30px;
+}
+.hero__btn button{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+}
+/* hero end */
+
+
+/* together start */
+.together{
+    margin-bottom: 181px;
+    text-align: center;
+    padding: 0 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+}
+.together__title{
+    display: flex;
+    justify-content: center;
+}
+.together__title h2{
+    width: 270px;
+    background-image: linear-gradient(to right, #FFFFF7 ,#585858);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.32px;
+}
+.benefits__list{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits__list li{
+    width: 254px;
+    height: 255px;
+    background-color: #262626;
+    border-radius: 30px;
+}
+.benefits__list li p{
+    color: white;
+    letter-spacing: -0.52px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.benefits__list img{
+    transform: translateY(-20px);
+}
+/* together end */
+
+/* privilage start */
+.privilage{
+    margin-bottom: 212px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 0 210px;
+}
+.privilage__title{
+    display: flex;
+    justify-content: center;
+}
+.privilage__title h2{
+    width: 220px;
+    background-image: linear-gradient(to right, #FFFFF7 ,#585858);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.32px;
+}
+.privilage__lists{
+    display: flex;
+    justify-content: space-between;
+}
+.privilage__lists li{
+    width: 330px;
+    height: 131px;
+    background-color: #262626;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    gap: 20px;
+}
+.privilage__lists li p{
+    color: #CCCCCC;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.52px;
+}
+/* privilage end */
+
+/* join start */
+.join{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    margin-bottom: 210px;
+}
+.join__title{
+    display: flex;
+    justify-content: center;
+}
+.join__title h2{
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+    width: 840px;
+    background-image: linear-gradient(to right, #FFFFF7 ,#585858);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.join__inputs{
+    display: flex;
+    padding: 0 264px;
+    justify-content: space-between;
+}
+.join__inputs__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.join__inputs__list label{
+    padding-left: 16px;
+    color: white;
+}
+.join__inputs__list input{
+    outline: none;
+    width: 318px;
+    height: 48px;
+    border-radius: 22px;
+    padding-left: 16px;
+}
+.join__inputs__btn{
+    display: flex;
+    width: 265px;
+    height: 68px;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 10px 11px 10px 28px;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+.join__inputs__btn button{
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+
+}
+/* join end */
+
+/* club start */
+.club{
+    margin-bottom: 194px;
+    padding: 0 226px;
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+.club-title{
+    display: flex;
+    justify-content: center;
+}
+.club-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    width: 160px;
+    letter-spacing: -1.32px;
+    background-image: linear-gradient(to right, #FFFFF7 ,#585858);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.club-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.club-main__text{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.club-main__text h3{
+    font-size: 51px;
+    color: #CCCCCC;
+    letter-spacing: -1.14px;
+}
+.club-main__text p{
+    font-size: 28px;
+    color: #CCCCCC;
+    letter-spacing: -1.14px;
+    line-height: 41.8px;
+}
+/* club end */
+
+/* statstics start */
+.statistics{
+    margin-bottom: 176px;
+    padding: 0 291px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+.statistics-title{
+    display: flex;
+    justify-content: center;
+}
+.statistics-title h2{
+    background-image: linear-gradient(to right, #FFFFF7 ,#585858);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+}
+.statistics-lists{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.statistics-lists li h3{
+    background-image: linear-gradient(to top, #FFFFF7, #757575);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    line-height: 73.5px;
+    letter-spacing: -1.4px;
+    font-weight: 500;
+}
+.statistics-lists li p{
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    color: #7A7A7A;
+}
+
+/* statstics end */
+
+/* mission start */
+.mission{
+    margin-bottom: 169px;
+    padding: 0 226px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.mission-title{
+    display: flex;
+    justify-content: center;
+}
+.mission-title h2{
+    background-image: linear-gradient(to right, #FFFFF7 ,#757575);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    width: 160px;
+    letter-spacing: -1.32px;
+}
+.mission-main{
+    width: 1060px;
+    height: 297px;
+    background-color: #D2D2D2;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mission-main p{
+    font-size: 45px;
+    letter-spacing: -1.62px;
+    line-height: 60px;
+}
+.mission img{
+    transform: translate(965px, -195px);
+}
+/* mission end */
+
+/* main end */
