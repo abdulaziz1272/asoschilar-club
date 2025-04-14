@@ -17,7 +17,7 @@ li{
 
 body{
     width: 100%;
-    background-color: #1B1B1B;
+    background-color: #0d0d0d;
     background-image: url("./images/hero-bg-image.svg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -42,7 +42,7 @@ nav{
     border: 3px solid #262626;
     border-radius: 30px;
     display: flex;
-    background-color: #1e1e1e;
+    background-color: #0d0d0d;
 }
 .nav__lists{
     display: flex;
@@ -80,6 +80,17 @@ nav{
     text-align: center;
     gap: 50px;
     margin-bottom: 232px;
+    position: relative;
+}
+.hero-bg-img1{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.hero-bg-img2{
+    position: absolute;
+    top: 150px;
+    left: 1210px;
 }
 .hero h1{
     background: linear-gradient(90deg, #727267, #FFFFF7);
@@ -205,6 +216,22 @@ nav{
     flex-direction: column;
     gap: 47px;
     margin-bottom: 210px;
+    position: relative;
+}
+.join-bg-img1{
+    position: absolute;
+    top: -25px;
+    left: 1380px;
+}
+.question-bg-img1{
+    position: absolute;
+    left: 0px;
+    top: -200px;
+}
+.question-bg-img2{
+    position: absolute;
+    left: 1380px;
+    top: -20px;
 }
 .join__title{
     display: flex;
@@ -358,6 +385,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    position: relative;
 }
 .mission-title{
     display: flex;
@@ -389,8 +417,541 @@ nav{
     line-height: 60px;
 }
 .mission img{
-    transform: translate(965px, -195px);
+    /* transform: translate(965px, -195px); */
+    position: absolute;
+    left: 1190px;
+    top: 200px;
 }
 /* mission end */
 
+/* reasons start */
+.reasons{
+    margin-bottom: 209px;
+    padding: 0 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+.reasons-title{
+    display: flex;
+    justify-content: center;
+}
+.reasons-title h2{
+    font-size: 30px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #FFFFF7 ,#757575);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 413px;
+    letter-spacing: -1.32px;
+    line-height: 52.8px;
+}
+.reasons-main{
+    display: flex;
+    justify-content: space-between;
+}
+.reasons-main ul{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.reasons-main ul li{
+    width: 519px;
+    padding: 19px 27px 19px 29px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+.reasons-main ul li span{
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 80%;
+    letter-spacing: -0.52px;
+    color: #E0E0E0;
+    display: inline-block;
+    width: 77px;
+    display: flex;
+    justify-content: center;
+}
+.reasons-main ul li p{
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -1.14px;
+}
+/* reasons end */
+
+/* requirement start */
+.requirement{
+    margin-bottom: 182px;
+    padding: 0 210px 0 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+}
+.requirement-title{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    align-items: center;
+}
+.requirement-title h2{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -1.32px;
+    line-height: 50px;
+    color: white;
+}
+.requirement-title h3{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+    background-image: linear-gradient(to right, #FFFFF7 ,#757575);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.requirement-main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.requirement-main ul li{
+    width: 330px;
+    height: 163px;
+    display: flex;
+    padding-left: 16px;
+    gap: 16px;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 30px;
+}
+.requirement-main ul li p{
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+    letter-spacing: -0.52px;
+    line-height: 24px;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.line2{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+/* requirement end */
+
+/* meeting start */
+.meeting{
+    height: 680px;
+    padding: 87px 210px 0 210px;
+    margin-bottom: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+    background-color: #FFFFFF;
+}
+.meeting-title{
+    display: flex;
+    justify-content: center;
+}
+.meeting-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #000000 ,#c2c1c1 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 250px;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+}
+.meeting-main{
+    display: flex;
+    justify-content: space-between;
+}
+.meeting-main ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.meeting-main ul li{
+    display: flex;
+    gap: 22px;
+}
+.meeting-main ul li p{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -1.14px;
+    line-height: 24px;
+}
+.meeting-main ul li p span{
+    font-size: 22px;
+    font-weight: 700;
+}
+/* meeting end */
+
+/* steps start */
+.steps{
+    padding: 0 226px;
+    margin-bottom: 204px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    align-items: center;
+}
+.steps-title{
+    display: flex;
+    justify-content: center;
+}
+.steps-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #FFFFF7 ,#757575);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+}
+.steps-main{
+    width: 1060px;
+    height: 217px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 18px 80px 0 80px;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+.steps-main li p a{
+    text-decoration: underline;
+    color: black;
+}
+.steps-middle{
+    padding-top: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.step-img1{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+.step-img2{
+    position: absolute;
+    left: 710px;
+    top: 100px;
+}
+/* steps start */
+
+/* price start */
+.price{
+    margin-bottom: 206px;
+    padding: 0 235px;
+}
+.price-above{
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+    align-items: center;
+}
+.price-above h2{
+    color: #CCCCCC;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -1.32px;
+    line-height: 52.8px;
+}
+.price-sum h3{
+    font-size: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #FFFFF7 ,#555454);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 390px;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+}
+.price-sum p{
+    color: #CCCCCC;
+    font-size: 115px;
+    font-weight: 500;
+    letter-spacing: -1.62px;
+    line-height: 55px;
+}
+.price-sum{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    align-items: center;
+}
+.dotted-line{
+    margin-top: 64px;
+    height: 1px;
+    background-image: repeating-linear-gradient(to right, 
+        #888, 
+        #888, 
+        transparent 6px, 
+        transparent 10px);                
+}
+.price-belov{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+.price-belov h3{
+    font-size: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #FFFFF7 ,#555454);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 390px;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+}
+.price-belov ul{
+    display: flex;
+    gap: 44px;
+}
+.price-belov ul li{
+    width: 282px;
+    height: 140px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+.price-belov ul li h4{
+    position: relative;
+    z-index: 10;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.52px;
+    line-height: 32px;
+    color: #CCCCCC;
+
+}
+.price-belov ul li p{
+    position: relative;
+    z-index: 10;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: -0.52px;
+    line-height: 25px;
+    color: #CCCCCC;
+}
+.price-belov ul li div{
+    position: absolute;
+    left: 5px;
+    top: -35px;
+    font-size: 140px;
+    font-weight: 600;
+    letter-spacing: -13px;
+    z-index: 0;
+}
+.price-list1{
+    background-color: #303030;
+}
+.price-list1 div{
+    color: #3a3a3a;
+}
+.price-list2{
+    background-color: #1b1b1b;
+}
+.price-list2 div{
+    color: #262626;
+}
+.price-list2{
+    transform: translateY(40px);
+}
+.price-list3{
+    background-color: #121212;
+}
+.price-list3 div{
+    color: #1e1e1e;
+}
+/* price end */
+
+/* members satrt */
+.members{
+    padding: 0 210px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+.members-title{
+    display: flex;
+    justify-content: center;
+}
+.members-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #FFFFF7 ,#555454);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 170px;
+    letter-spacing: -1.32px;
+    line-height: 30px;
+}
+.members-main{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.members-main ul{
+    display: flex;
+    justify-content: space-between;
+}
+.members-main ul li{
+    width: 256px;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1B1B;
+    border-radius: 30px;
+    padding-top: 14px;
+    gap: 15px;
+    padding-left: 14px;
+}
+.members-main ul li div{
+    padding-left: 8px;
+}
+.members-main ul li div h3{
+    font-size: 20px;
+    color: white;
+}
+.members-main ul li div p{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: -0.52px;
+    color: white;
+}
+.members-main__last {
+    width: 256px;
+    height: 277px;
+    font-size: 120px;
+    color: white;
+    letter-spacing: -0.52px;
+    line-height: 120px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* members satrt */
+
+/* contact start */
+.contact{
+    padding: 63px 47px;
+    margin: 0 226px 80px 226px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 1060px;
+    height: 353px;
+    background-image: linear-gradient(135deg, #1A1A1A, #0D0D0D);
+    border-radius: 24px;
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-title h2{
+    font-size: 50px;
+    color: #CCCCCC;
+    line-height: 50px;
+    font-weight: 400;
+}
+.contact-title h3{
+    font-size: 30px;
+    color: #CCCCCC;
+    line-height: 30px;
+    font-weight: 400;
+}
+.contact-main{
+    width: 965px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    display: flex;
+    padding: 27px 70px;
+    justify-content: space-between;
+    position: relative;
+}
+.contact-main li p{
+    font-size: 17px;
+    color: #ADADAD;
+    line-height: 17px;
+}
+.contact-main li a{
+    font-size: 18px;
+    color: #000000;
+    line-height: 18px;
+}
+.contact-main li a span{
+    text-decoration: underline;
+}
+.contact-img1{
+    position: absolute;
+    top: 12px;
+    left: 344px;
+}
+.contact-img2{
+    position: absolute;
+    top: 12px;
+    left: 595px;
+}
+/* contact end */
+
 /* main end */
+
+/* footer start */
+footer{
+    height: 130px;
+    display: flex;
+    padding: 39px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-rest{
+    display: flex;
+    gap: 283px;
+    align-items: center;
+}
+.footer-info p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #C9C9C9;
+}
+.footer-contact-bar{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.footer-contact-bar a{
+    color: #C8C8C8;
+    font-size: 18px;
+}
+/* footer end */
+
